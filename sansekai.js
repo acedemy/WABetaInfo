@@ -127,12 +127,9 @@ Menampilkan source code bot yang dipakai`
           break;
 
                 case "wabeta":
-          m.reply(`dark na wabetainfo`
+          m.reply(`dark na wabetainfo` + getLatestPost().then(console.log)
 
 )
-          try{
-            getLatestPost().then(console.log);
-          }
           break;
             
           break;
