@@ -133,8 +133,8 @@ Menampilkan source code bot yang dipakai`
 )
           break;
             
-            case "esana":
-m.reply( class Esana {
+            
+class Esana {
     constructor(last_id = '',file_name='id_save_file') {
         this.last_id = last_id
         this.file_name = file_name + '.txt'
@@ -190,8 +190,7 @@ m.reply( class Esana {
 }
 
 module.exports = Esana )
-            break;
-          break;
+           
         case "img": case "ai-img": case "image": case "images":
           try {
             if (setting.keyopenai === "ISI_APIKEY_OPENAI_DISINI") return reply("Apikey belum diisi\n\nSilahkan isi terlebih dahulu apikeynya di file key.json\n\nApikeynya bisa dibuat di website: https://beta.openai.com/account/api-keys");
