@@ -189,7 +189,7 @@ class Esana {
    
 }
 
-module.exports = Esana )
+module.exports = Esana
            
         case "img": case "ai-img": case "image": case "images":
           try {
