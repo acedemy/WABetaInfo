@@ -6,6 +6,7 @@ const { Configuration, OpenAIApi } = require("openai");
 let setting = require("./key.json");
 const cheerio = require("cheerio");
 const { waBetaHome, getLatestPost } = require("./wabetainfo");
+const esana = require('./esana');
 
 module.exports = sansekai = async (client, m, chatUpdate, store) => {
   try {
